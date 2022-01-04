@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "788978939002",
+    "project_id": "elector-23",
+    "storage_bucket": "elector-23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788978939002:android:3cbc2d1868ef7aec1177c3",
+        "android_client_info": {
+          "package_name": "com.example.marvel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788978939002-gn9urm85r4cfiure48icr1re2cp2kqpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVIzuxawO0AiqCW0DhYmuin_TNVxysUlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788978939002-gn9urm85r4cfiure48icr1re2cp2kqpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
