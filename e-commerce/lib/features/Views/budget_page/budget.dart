@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:marvel/features/screens/budget_page/tile.dart';
+import 'package:marvel/features/Views/budget_page/tile.dart';
 import '../../../wayTwo.dart';
 import 'box_label.dart';
 import 'items_B.dart';
@@ -150,7 +150,8 @@ class Budget extends StatelessWidget {
                     radius: 30,
                     child: Icon(
                       Icons.pie_chart,
-                      color: (isColored ? Color(0xFFf6f6f6) : Color(0xFF0B0D0F)),
+                      color:
+                          (isColored ? Color(0xFFf6f6f6) : Color(0xFF0B0D0F)),
                       size: 35,
                     ),
                   ),

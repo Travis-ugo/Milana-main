@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:marvel/features/screens/auth_screen/sign_in.dart';
-import 'package:marvel/features/screens/auth_screen/sign_up.dart';
-import 'package:marvel/features/screens/market/marketpage.dart';
+import 'package:marvel/features/Views/auth_screen/sign_in.dart';
+import 'package:marvel/features/Views/auth_screen/sign_up.dart';
+import 'package:marvel/features/Views/market/marketpage.dart';
 import '../../wayTwo.dart';
 import 'authWidget.dart';
 
@@ -67,7 +67,7 @@ class Authentication extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children : [
+                children: [
                   MoodL$B(),
                   Button(
                     onPressed: () {
@@ -114,7 +114,7 @@ class Authentication extends StatelessWidget {
       case ApplicationLoginState.loggedIn:
         return MarketPlace(
           onPressed: () {
-           _logOutDialog(context);
+            _logOutDialog(context);
           },
         );
 
@@ -126,8 +126,11 @@ class Authentication extends StatelessWidget {
         );
     }
   }
- // Dialog for error alert
-  void _logOutDialog(BuildContext context,) {
+
+  // Dialog for error alert
+  void _logOutDialog(
+    BuildContext context,
+  ) {
     showDialog<void>(
       context: context,
       builder: (context) {
@@ -137,20 +140,20 @@ class Authentication extends StatelessWidget {
             style: const TextStyle(fontSize: 16),
           ),
           actions: <Widget>[
-             TextButton(
-               onPressed: () {
-                 signOut();
-               },
-              child: Text( 
-                'confirm',
-                style: TextStyle(color: Colors.redAccent),
-                )
-            ),
+            TextButton(
+                onPressed: () {
+                  signOut();
+                },
+                child: Text(
+                  'confirm',
+                  style: TextStyle(color: Colors.redAccent),
+                )),
           ],
         );
       },
     );
   }
+
   // Dialog for error alert
   void _showErrorDialog(BuildContext context, String title, Exception e) {
     showDialog<void>(

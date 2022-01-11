@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:marvel/features/screens/cart_widget/cart_details.dart';
 import 'package:marvel/features/utiles/data.dart';
 import 'package:marvel/features/utiles/items.dart';
 
+import 'cart_details.dart';
+
 class Recommended extends StatelessWidget {
   final List<Items> instance;
-  const Recommended ({Key? key, required this.instance}) : super(key: key);
+  const Recommended({Key? key, required this.instance}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

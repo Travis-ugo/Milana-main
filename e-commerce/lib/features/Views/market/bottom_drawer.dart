@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:marvel/features/screens/cart_widget/cart_details.dart';
-import 'package:marvel/features/screens/cart_widget/trending_items.dart';
+import 'package:marvel/features/Views/cart_widget/cart_details.dart';
+import 'package:marvel/features/Views/cart_widget/trending_items.dart';
 import 'package:marvel/features/utiles/data.dart';
 
 class BottomDrawer extends StatefulWidget {

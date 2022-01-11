@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:marvel/features/screens/profile_Page/page_view.dart';
-import 'package:marvel/features/utiles/data_color.dart';
+import 'package:marvel/features/Views/profile_Page/page_view.dart';
 import 'package:marvel/features/utiles/items.dart';
 
 import '../../../wayTwo.dart';
@@ -200,7 +199,9 @@ class HomeCard extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 20),
       child: Container(
         decoration: BoxDecoration(
-          border: Border.all(color: (isColored ? Color(0xFFf6f6f6) : Color(0xFF0B0D0F)), width: 0.8),
+          border: Border.all(
+              color: (isColored ? Color(0xFFf6f6f6) : Color(0xFF0B0D0F)),
+              width: 0.8),
           color: Colors.transparent,
           borderRadius: BorderRadius.circular(20),
         ),
@@ -222,16 +223,19 @@ class HomeCard extends StatelessWidget {
                       Text(
                         'Privacy & personlization',
                         style: TextStyle(
-                          fontWeight: FontWeight.w600,
-                          fontSize: 18,
-                          color: (isColored ? Color(0xFFf6f6f6) : Color(0xFF0B0D0F))
-                        ),
+                            fontWeight: FontWeight.w600,
+                            fontSize: 18,
+                            color: (isColored
+                                ? Color(0xFFf6f6f6)
+                                : Color(0xFF0B0D0F))),
                       ),
                       Text(
                         'see the data in your account and choose what activity\nis saved to personalize your experience',
                         style: TextStyle(
                           fontWeight: FontWeight.w200,
-                          color: (isColored ? Color(0xFFf6f6f6) : Color(0xFF0B0D0F)),
+                          color: (isColored
+                              ? Color(0xFFf6f6f6)
+                              : Color(0xFF0B0D0F)),
                           fontSize: 14,
                         ),
                       ),

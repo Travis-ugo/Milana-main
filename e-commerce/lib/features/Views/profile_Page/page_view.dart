@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:marvel/features/screens/profile_Page/personal_profile.dart';
+import 'package:marvel/features/Views/profile_Page/personal_profile.dart';
 import 'package:marvel/features/utiles/data_color.dart';
 
 class Page extends StatelessWidget {

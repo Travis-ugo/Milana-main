@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:marvel/features/screens/budget_page/budget.dart';
-import 'package:marvel/features/screens/profile_Page/personal_profile.dart';
-import 'package:marvel/features/screens/profile_Page/profile.dart';
+import 'package:marvel/features/Views/budget_page/budget.dart';
+import 'package:marvel/features/Views/profile_Page/personal_profile.dart';
+import 'package:marvel/features/Views/profile_Page/profile.dart';
 import 'package:marvel/features/utiles/items.dart';
 
 class Draw extends StatelessWidget {
@@ -119,7 +119,7 @@ class Draw extends StatelessWidget {
             Text(
               'version 1.37.1(345)',
               style: TextStyle(
-                fontSize: 14,  
+                fontSize: 14,
               ),
             ),
           ],
@@ -128,4 +128,3 @@ class Draw extends StatelessWidget {
     );
   }
 }
- 

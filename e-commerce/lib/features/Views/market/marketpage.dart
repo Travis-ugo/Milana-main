@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:marvel/features/screens/cart_widget/other_items.dart';
-import 'package:marvel/features/screens/cart_widget/popular_Items.dart';
-import 'package:marvel/features/screens/cart_widget/trending_items.dart';
-import 'package:marvel/features/screens/market/searchBar.dart';
-import 'package:marvel/features/screens/profile_Page/draw.dart';
+import 'package:marvel/features/Views/cart_widget/other_items.dart';
+import 'package:marvel/features/Views/cart_widget/popular_Items.dart';
+import 'package:marvel/features/Views/cart_widget/trending_items.dart';
+import 'package:marvel/features/Views/market/searchBar.dart';
+import 'package:marvel/features/Views/profile_Page/draw.dart';
 import 'package:marvel/features/utiles/items.dart';
 import 'menu.dart';
 

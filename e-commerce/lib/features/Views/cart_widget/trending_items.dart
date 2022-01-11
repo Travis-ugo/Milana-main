@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:marvel/features/utiles/data.dart';
 import 'package:marvel/features/utiles/items.dart';
-import 'package:marvel/features/screens/cart_widget/cart_details.dart';
+
+import 'cart_details.dart';
 
 class Trend extends StatelessWidget {
   final List<Items> instance;
@@ -41,8 +42,9 @@ class Trend extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) =>
-                                      D3tail(item: instance[index]),
+                                  builder: (context) => D3tail(
+                                    item: instance[index],
+                                  ),
                                 ),
                               );
                             },

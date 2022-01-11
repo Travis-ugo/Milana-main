@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:marvel/features/screens/cart_widget/cart_details.dart';
+import 'package:marvel/features/Views/cart_widget/cart_details.dart';
 import 'package:marvel/features/utiles/items.dart';
 
 class Menu extends StatelessWidget {
@@ -57,10 +57,10 @@ class Menu extends StatelessWidget {
                     child: Text(
                       'Coats',
                       style: TextStyle(
-                          fontSize: 14,
-                          fontWeight: FontWeight.w500,
-                          color: Colors.grey[700],
-                          ),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
+                        color: Colors.grey[700],
+                      ),
                     ),
                   ),
                   Text(
